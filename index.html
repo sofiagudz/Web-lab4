@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Site - Branding, Print, Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="menu-icon" style="margin-right: 100px; ">
+            <img src="img/menu-icon.png" alt="menu" width="30" height="30" >
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <h1>What Makes Us Different</h1>
+        <p>To build a brand, to have a unique style and to be distinctive on the market is a must for<br>
+        every company. We create strategy and design with production across all platforms.</p>
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <div class="icon-left">✏️</div>
+            <div class="service-text">
+                <h2>BRANDING</h2>
+                <p>Logo design, business cards, corporate stationery and development of branding across print, social media.</p>
+                <a href="#" class="btn">more</a>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="icon-left">🖨️</div>
+            <div class="service-text">
+                <h2>PRINT</h2>
+                <p>Flyers, leaflets, exhibition graphics, brochures, product catalogues, reports and packaging.</p>
+                <a href="#" class="btn">more</a>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="icon-left">💻</div>
+            <div class="service-text">
+                <h2>DIGITAL</h2>
+                <p>Responsive websites (static HTML and CMS - Wordpress), graphics for social media, web banner advertising.</p>
+                <a href="#" class="btn">more</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        // JavaScript to toggle the mobile menu
+        const menuToggle = document.querySelector('.menu-icon');
+        menuToggle.addEventListener('click', () => {
+            document.body.classList.toggle('menu-open');
+        });
+    </script>
+</body>
+</html>
